@@ -1,0 +1,16 @@
+{
+	"configurations": {
+		"Launch": {
+			"adapter": "debugpy",
+			"configuration": {
+				"request": "launch",
+				"cwd": "${workspaceRoot}/day${Day}",
+				"program": "puzzle${Puzzle}.py",
+				"externalConsole": true,
+				"stopOnEntry": true,
+				"justMyCode": false,
+				"MIMode": "gdb"
+			}
+		}
+	}
+}
